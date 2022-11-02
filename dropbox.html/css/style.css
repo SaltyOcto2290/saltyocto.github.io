@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+
+div {
+    border: solid black 1px;
+}
+
+#top-half {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom-half {
+    display: flex;
+    flex-direction: row;
+}
