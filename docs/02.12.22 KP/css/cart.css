@@ -1,0 +1,143 @@
+#body {
+    background-color: #d6d6d6;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b2b59;
+    width: 100%;
+    padding: 2vh;
+    margin-left: -8px;
+    margin-top: -8px;
+    align-items: center;
+    height: 10vh;
+}
+
+.icon a {
+    display: flex;
+    flex-direction: row;        
+    height: 10vh;
+    width: 10vh;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100vh;
+}
+
+#cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+@media only screen and (max-width:600px) {
+    .icon a {
+        display: flex;
+        flex-direction: row;
+        height: 5vh;
+        width: 5vh;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1vh;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #cart {
+        flex-direction: column;
+    }
+
+    
+}
+
+#ad-2 {
+    margin-left: -20vw;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 10vh;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #2b2b59;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10vh;
+}
+  
+input[type=submit]:hover {
+    background-color: #2b2b59;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b59;
+    margin-left: -8px;
+    width: 102%;
+}
+
+#disclaimer {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+
+}
+
+#photo-credits {
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2b2b59;
+        margin-left: -8px;
+        width: 110%;
+        height: 450px;
+    }
+
+    form {
+        margin-left: -340px;
+    }
+}
+
+label {
+    margin-left: 10vh;
+}
+
+h3 {
+    text-align: center;
+}

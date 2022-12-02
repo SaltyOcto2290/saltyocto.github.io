@@ -1,0 +1,181 @@
+body {
+    background-color: #d6d6d6;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b2b59;
+    width: 100%;
+    padding: 2vh;
+    margin-left: -8px;
+    margin-top: -8px;
+    align-items: center;
+    height: 10vh;
+}
+
+.icon a {
+    display: flex;
+    flex-direction: row;        
+    height: 10vh;
+    width: 10vh;
+}
+
+#description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+    max-width: 50vw;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100vh;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    margin: auto;
+    padding: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .icon a {
+        display: flex;
+        flex-direction: row;
+        height: 5vh;
+        width: 5vh;
+    }
+
+    #description {
+        max-width: 70vw;
+    }
+
+    #h2 {
+        font-size: 50px;
+    }
+}
+
+#ad-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description a {
+    font-size: 45px;
+    display: block;
+    color: white;
+    background-color: #2b2b59;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#nutrition-table {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b2b59;
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    max-width: fit-content;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#nutrition-facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+}
+
+#environmentally-friendly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:600px) {
+    #nutrition-facts {
+        flex-direction: column;
+    }
+
+    #nutrition-table {
+        font-size: 14px;
+    }
+
+    #environmentally-friendly {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #ad-1 {
+        max-width: 400px;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 25vh;
+    }
+}
+
+#environment-title {
+    font-size: 5vh;
+    margin: 30px;
+    text-align: center;
+}
+
+#environment-text {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b59;
+    margin-left: -8px;
+    width: 102%;
+}
+
+#disclaimer {
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+
+}
+
+#photo-credits {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
